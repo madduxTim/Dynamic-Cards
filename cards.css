@@ -3,19 +3,11 @@ body {
 }
 
 .textField {
-    width: 200px;
-    margin: 5% 25% 0%;
-    align: center;
 }
 
 .button {
-    margin: 0% 25%;
-    align: center;
 }
 
-#output {
-  border: 4px dashed black;
-  width: 300px;
-  height: 200px;
-  float: left;
+#outputArea {
+    
 }
