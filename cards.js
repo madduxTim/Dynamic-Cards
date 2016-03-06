@@ -13,10 +13,6 @@ function createCard() {
     }
 };
 
-// function deleteCard (removed) {
-//     this.parentNode.remove
-// };
-
 function deleteCard () {
     if (this.parentNode.parentNode) {
       this.parentNode.parentNode.removeChild(this.parentNode);
