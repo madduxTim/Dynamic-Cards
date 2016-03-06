@@ -14,7 +14,5 @@ function createCard() {
 };
 
 function deleteCard () {
-    if (this.parentNode.parentNode) {
-      this.parentNode.parentNode.removeChild(this.parentNode);
-    }
+    this.parentNode.parentNode.removeChild(this.parentNode);
 };
